@@ -3,10 +3,10 @@
 ## supplier 
 https://code-projects.org/farmacia-in-php-css-javascript-and-mysql-free-download/
 ## Vulnerability file
-pagamento.php and texto parameter.
+pagamento.php and notaFiscal parameter.
 
 ## describe
-There are unrestricted cross site scripting attacks and injection attacks in the farmacia-in-php. The controllable parameters are as follows: texto parameter. This function will execute the user parameter without restriction into the echo statement. Malicious attackers can exploit this vulnerability to obtain sensitive information from clients
+There are unrestricted sql injection attacks and injection attacks in the farmacia-in-php. The controllable parameters are as follows: notaFiscal parameter. This function will execute the notaFiscal parameter without restriction into the sql statement.
 
 **Code analysis**    
 
